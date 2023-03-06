@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #ea580c;
+    --off-white: #f3f4f6;
+    --dark-grey: #334155;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/**Container**/
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/**Links**/
+
+.link{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/** Lists **/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.list-item{
+    margin: 0.3rem 0rem;
+}
+
+/** Nav **/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0rem 0rem 0rem 1rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .list-non-bullet{
+    text-align: right;
+}
+
+.navigation .navigation-brand{
+    font-weight: bold;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-grey);
+}
+
+.hero .hero-highlight{
+    color: var(--primary-color);
+}
+
+/** Section **/
+
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+
+.section ul{
+    text-align: initial;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 0rem 1rem 0rem 0rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+
